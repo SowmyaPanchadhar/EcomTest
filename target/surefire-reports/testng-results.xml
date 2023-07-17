@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC_002 Verify signIn button is selected true]]>
+    </line>
+    <line>
+      <![CDATA[TC_001 The title is Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-01T14:20:50 IST" name="Suite_Parallel" finished-at="2023-07-01T14:21:23 IST" duration-ms="32586">
+    <groups>
+      <group name="unitTesting">
+        <method signature="WelcomePageTest.verifySignInButton()[pri:2, instance:com.ecom.testcases.WelcomePageTest@647e447]" name="verifySignInButton" class="com.ecom.testcases.WelcomePageTest"/>
+        <method signature="WelcomePageTest.verifyTitle()[pri:1, instance:com.ecom.testcases.WelcomePageTest@647e447]" name="verifyTitle" class="com.ecom.testcases.WelcomePageTest"/>
+      </group> <!-- unitTesting -->
+    </groups>
+    <test started-at="2023-07-01T14:20:50 IST" name="Regression" finished-at="2023-07-01T14:21:23 IST" duration-ms="32586">
+      <class name="com.ecom.testcases.WelcomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ecom.testcases.WelcomePageTest@647e447]" started-at="2023-07-01T14:20:50 IST" name="setup" finished-at="2023-07-01T14:21:19 IST" duration-ms="29388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="waitTime()[pri:0, instance:com.ecom.testcases.WelcomePageTest@647e447]" started-at="2023-07-01T14:21:19 IST" name="waitTime" finished-at="2023-07-01T14:21:22 IST" duration-ms="2835" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitTime -->
+        <test-method is-config="true" signature="waitTime()[pri:0, instance:com.ecom.testcases.WelcomePageTest@647e447]" started-at="2023-07-01T14:21:19 IST" name="waitTime" finished-at="2023-07-01T14:21:19 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitTime -->
+        <test-method signature="verifySignInButton()[pri:2, instance:com.ecom.testcases.WelcomePageTest@647e447]" started-at="2023-07-01T14:21:19 IST" name="verifySignInButton" finished-at="2023-07-01T14:21:23 IST" duration-ms="3078" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_002 Verify signIn button is selected true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySignInButton -->
+        <test-method signature="verifyTitle()[pri:1, instance:com.ecom.testcases.WelcomePageTest@647e447]" started-at="2023-07-01T14:21:22 IST" name="verifyTitle" finished-at="2023-07-01T14:21:23 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC_001 The title is Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ecom.testcases.WelcomePageTest@647e447]" started-at="2023-07-01T14:21:23 IST" name="tearDown" finished-at="2023-07-01T14:21:30 IST" duration-ms="7015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecom.testcases.WelcomePageTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite_Parallel -->
+</testng-results>
